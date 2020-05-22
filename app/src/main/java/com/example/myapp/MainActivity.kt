@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity() {
     var passwordText: EditText? = null
     var inButton: Button? = null
     var upButton: Button? = null
-    var users = mutableListOf(User("polina.mokeeva@mail.ru", "Aa1234567", "МПА",R.drawable.tes ))
+    var users = mutableListOf(User("polina.mokeeva@mail.ru", "Aa1234567", "Мокеева Полина Алексеевна",R.drawable.tes ))
     val APP = "user"
     lateinit var file: SharedPreferences
 
